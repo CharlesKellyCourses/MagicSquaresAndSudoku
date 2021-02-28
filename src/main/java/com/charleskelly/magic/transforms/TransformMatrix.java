@@ -32,7 +32,7 @@ public class TransformMatrix
 
                 }
             }
-            int tempDebug = 0;
+
         } catch (Exception e)
         {
             log.error(e.toString());
