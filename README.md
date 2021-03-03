@@ -9,5 +9,7 @@ https://charles-school-f8d9.thinkific.com/courses/take/math-for-sudoku/lessons/1
 
 As far as I know, the theory,  and mathematics, for these algorithms has not been published anywhere else.
 
+The algorithms enable you to create sudoku puzzles that are larger than "newspaper size puzzles".  For example, 25 by 25,  49 by 49, 81 by 81, and so forth. 
+
 Have fun building magic squares and sudoku puzzles!
 
