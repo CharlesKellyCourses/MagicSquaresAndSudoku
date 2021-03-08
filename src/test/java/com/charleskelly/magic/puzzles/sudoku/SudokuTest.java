@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SudokuTest
 {
-    private static int order = 3;
+    private static int order = 5;
     private static int dimensions = 2;      // do NOT change; only two-dimensional sudoku puzzles
 
 
