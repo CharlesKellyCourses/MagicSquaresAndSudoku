@@ -28,7 +28,6 @@ public class CellDifferences extends Tuple
 
     /**
      * @return the differences between cellContents1 - cellContents0 (may be negative)
-     * Note: the constructor below with modulus parameter
      *
      * @param cellContents0 "lower row" before subtraction - subtrahend
      * @param cellContents1 "upper row" before subtraction - minuend
