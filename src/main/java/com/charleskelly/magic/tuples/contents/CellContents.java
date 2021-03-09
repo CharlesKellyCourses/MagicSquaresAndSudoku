@@ -28,7 +28,15 @@ public class CellContents extends Tuple
     {
         super(size);
     }
-    
+
+    /**
+     * "convenience" constructor
+     * instantiate new CellContents from sum of a CellContents and a CellDifference
+     *
+     * @param addend0CellContents
+     * @param addend1CellDifferences
+     * @throws Exception
+     */
     public CellContents(@NonNull CellContents addend0CellContents, @NonNull CellDifferences addend1CellDifferences) throws Exception
     {
         super(addend0CellContents.getTupleSize());
