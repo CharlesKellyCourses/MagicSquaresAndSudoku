@@ -44,6 +44,9 @@ public class GameCharacteristics
         this.order = order;
         this.dimensions = dimensions;
 
+        if (1 != order % 2)
+            throw new Exception ("order must be an ODD number");
+
         midPoint = (order - 1) / 2;
         totalNumberOfCells = MathUtility.integerExponentiation(order, dimensions);
 
